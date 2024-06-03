@@ -2,6 +2,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Brief Description
+Our project is a task management web application designed to help users organize and keep track of their tasks efficiently. It allows users to create, edit, delete, and mark tasks as completed or incomplete. The application provides a user-friendly interface where users can easily manage their tasks, prioritize them, and stay organized. With features like task filtering, users can quickly find the tasks they are looking for based on their status. Our goal is to simplify task management and enhance productivity for individuals and teams
+
+##Installation
+To install the project, follow these steps:
+
+##Clone the repository to your local machine using git clone. ["https://github.com/csgowtham/ZenClass_React_ToDo_TaskList_CRUD_Task-CSG.git"]
+    - Navigate to the project directory.
+    - Install dependencies by running npm install.
+    - Run the project locally using npm start.
+
+##Usage
+To use the project:
+
+        - Open the project in your preferred code editor.
+        - Make any necessary configurations or customizations.
+        - Start the development server using npm start.
+        - Access the project in your web browser.
+
+##Features
+       - This project includes the following features:
+       - User authentication system
+       - CRUD functionality for managing tasks
+       - Responsive design for various screen sizes
+       - Integration with external APIs
+       - Search and filter functionality for tasks
+       - Customizable user settings and preferences
+
 ## Available Scripts
 
 In the project directory, you can run:

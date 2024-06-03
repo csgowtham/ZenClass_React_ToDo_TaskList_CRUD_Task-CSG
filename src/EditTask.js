@@ -25,11 +25,11 @@ const EditTask = () => {
     fetchTask(); // Add fetchTask as a dependency to resolve the warning
   }, [id]);
 
-  const fetchTask = async () => {
-    const response = await fetch(`${apiUrl}/${id}`);
-    const data = await response.json();
-    setTask(data);
-  };
+  // const fetchTask = async () => {
+  //   const response = await fetch(`${apiUrl}/${id}`);
+  //   const data = await response.json();
+  //   setTask(data);
+  // };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;

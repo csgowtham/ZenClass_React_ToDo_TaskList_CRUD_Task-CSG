@@ -16,7 +16,7 @@ const Task = ({ task, onEdit, onDelete, onStatusChange }) => {
       <td>{task.TaskName}</td>
       <td>{task.Description}</td>
       <td>
-        <select class="btn btn-info dropdown-toggle" value={task.Status ? 'Completed' : 'Not Completed'} onChange={handleStatusChange}>
+        <select className="btn btn-info dropdown-toggle" value={task.Status ? 'Completed' : 'Not Completed'} onChange={handleStatusChange}>
           <option value="Not Completed">Not Completed</option>
           <option value="Completed">Completed</option>
         </select>

@@ -81,13 +81,13 @@ function App() {
                       width="60"
                     />
                     <h2 className="my-4">TODO Task List</h2>
-                    <button className="btn btn-primary me-2" onClick={() => handleFilterChange('All')}>
+                    <button className="btn btn-warning me-2" onClick={() => handleFilterChange('All')}>
                       All
                     </button>
-                    <button className="btn btn-primary me-2" onClick={() => handleFilterChange('Completed')}>
+                    <button className="btn btn-warning me-2" onClick={() => handleFilterChange('Completed')}>
                       Completed
                     </button>
-                    <button className="btn btn-primary" onClick={() => handleFilterChange('Not Completed')}>
+                    <button className="btn btn-warning" onClick={() => handleFilterChange('Not Completed')}>
                       Not Completed
                     </button>
                   </div>

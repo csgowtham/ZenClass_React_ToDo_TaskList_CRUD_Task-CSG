@@ -16,8 +16,14 @@ const EditTask = () => {
   });
 
   useEffect(() => {
-    fetchTask();
-  }, []);
+    const fetchTask = async () => {
+      const response = await fetch(`${apiUrl}/${id}`);
+      const data = await response.json();
+      setTask(data);
+    };
+
+    fetchTask(); // Add fetchTask as a dependency to resolve the warning
+  }, [id]);
 
   const fetchTask = async () => {
     const response = await fetch(`${apiUrl}/${id}`);

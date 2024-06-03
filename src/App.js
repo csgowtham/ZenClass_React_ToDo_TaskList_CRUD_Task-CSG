@@ -16,7 +16,6 @@ function App() {
     Status: false
   });
 
-  const navigate = useNavigate();
 
   const createTask = async () => {
     const response = await fetch(apiUrl, {
